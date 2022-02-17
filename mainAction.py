@@ -41,6 +41,8 @@ if __name__ == "__main__":
     plt.plot(xList, curveList[4], color='black', label = LabelList[4])
     plt.plot(xList, curveList[5], color='yellow', label = LabelList[5])
     plt.legend()
+    outputFigure = "./output/actionRecognition.png"
+    plt.savefig(outputFigure)
     plt.show()
 
 

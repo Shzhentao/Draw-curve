@@ -27,4 +27,7 @@ if __name__ == "__main__":
     for index in range(5):
         plt.plot(x, numList[index], label = label[index])
         plt.legend(loc='upper left')
+    outputFigure = "./output/audioRecognition.png"
+    plt.savefig(outputFigure)
     plt.show()
+    
